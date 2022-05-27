@@ -3,6 +3,7 @@ import $ from "jquery";
 import Profile from './Components/Profile';
 import Story from './Components/Story';
 import SocialMedia from './Components/SocialMedia';
+import Resume from './Components/Resume';
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
                 <Profile />
                 <Story />
                 <SocialMedia />
+                <Resume />
             </div>
     );
 }
