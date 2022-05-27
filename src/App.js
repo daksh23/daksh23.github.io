@@ -1,7 +1,8 @@
 import React, {useEffect, useRef} from 'react'
-import CopyRight from './Components/CopyRight';
 import $ from "jquery";
-import {MapInteractionCSS } from 'react-map-interaction';
+import Profile from './Components/Profile';
+import Story from './Components/Story';
+import SocialMedia from './Components/SocialMedia';
 
 function App() {
 
@@ -45,15 +46,9 @@ function App() {
             <div style={{
                 color: "white"
             }}>
-                <div
-                    style={{
-                    position: "absolute",
-                    top: '298px',
-                    left: "725px",
-                    opacity: 1
-                }}>
-                    <CopyRight/>
-                </div>
+                <Profile />
+                <Story />
+                <SocialMedia />
             </div>
     );
 }
