@@ -8,20 +8,6 @@ const Skills = () => {
 
             <div className='SkillDiv'>
                 <Stack direction="column" spacing={2}>
-                    <div className='SkillBtn'>
-                        <img src="/images/git.png" alt='git' className='SkillImg'/>
-                    </div>
-
-                    <div className='SkillBtn'>
-                        <img src="/images/python.png" alt='python' className='SkillImg'/>
-                    </div>
-
-
-                </Stack>
-            </div>
-
-            <div className='SkillDiv'>
-                <Stack direction="column" spacing={2}>
 
                     <div className='SkillBtn'>
                         <img src="/images/java.png" alt='java' className='SkillImg'/>
@@ -71,7 +57,14 @@ const Skills = () => {
             <div className='SkillDiv'>
                 <Stack direction="column" spacing={2}>
                     <div className='SkillBtn'>
+                        <img src="/images/python.png" alt='python' className='SkillImg'/>
+                    </div>
+                    <div className='SkillBtn'>
                         <img src="/images/firebase.png" alt='firebase' className='SkillImg'/>
+                    </div>
+
+                    <div className='SkillBtn'>
+                        <img src="/images/git.png" alt='git' className='SkillImg'/>
                     </div>
                 </Stack>
             </div>
