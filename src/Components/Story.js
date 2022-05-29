@@ -9,9 +9,7 @@ const Story = () => {
 
     const code = ">_ ";
     return (
-        <Stack sx={{
-            maxWidth: 300
-        }} className="StoryCard">
+        <Stack className="StoryCard">
             <h2
                 style={{
                 padding: 0,

@@ -4,6 +4,10 @@ import Profile from './Components/Profile';
 import Story from './Components/Story';
 import SocialMedia from './Components/SocialMedia';
 import Resume from './Components/Resume';
+import PG from './Components/Education/PG';
+import Bachelor from './Components/Education/Bachelor';
+import Skills from './Components/Skills';
+import Interest from './Components/Interest';
 
 function App() {
 
@@ -51,6 +55,10 @@ function App() {
                 <Story />
                 <SocialMedia />
                 <Resume />
+                <PG />
+                <Bachelor />
+                <Skills />
+                <Interest />
             </div>
     );
 }

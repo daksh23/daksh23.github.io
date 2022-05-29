@@ -3,6 +3,7 @@ html {
     margin: 0;
     padding: 0;
     user-select: none;
+    padding: 120px;
     cursor: pointer;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -28,7 +29,7 @@ body::-webkit-scrollbar {
     max-width: 350px;
     border-radius: 5px;
     background: #1e1e1e;
-    box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
     display: flex;
     align-items: center;
     font-family: 'Inconsolata', monospace;
@@ -37,61 +38,138 @@ body::-webkit-scrollbar {
 .StoryCard {
     position: absolute;
     top: 200px;
+    max-width: 350px;
     left: 120px;
     padding: 20px;
     border-radius: 5px;
-    background-color: #1e1e1e;
-    box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
     text-align: center;
     font-family: 'Inconsolata', monospace;
 }
 
-.Story{
+.Story {
     font-size: large;
 }
 
-.SocialMediaCard{
+.SocialMediaCard {
     position: absolute;
     top: 600px;
     left: 150px;
     padding: 20px;
     border-radius: 5px;
-    background-color: #1e1e1e;
-    box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
-    text-align: center;
-    font-family: 'Inconsolata', monospace;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
 }
 
-.SocialMediaCard a{
-    color:white;
+.SocialMediaCard a {
+    color: white;
 }
-
 .SocialMediaCard a:visited {
     color: white;
 }
-
-.SocialMediaCard .Twitter:hover{
-    color:#1DA1F2;
+.SocialMediaCard .Twitter:hover {
+    color: #1DA1F2;
 }
-
-
-.SocialMediaCard  .LinkedIn:hover{
-    color:#0e76a8 ;
+.SocialMediaCard .LinkedIn:hover {
+    color: #0e76a8;
 }
-
+.SocialMediaCard .Email:hover {
+    color: #83BD75;
+}
 
 .ResumeCard {
     position: absolute;
     top: 700px;
-    left: 600px;
+    right: 500px;
     padding: 20px;
     border-radius: 5px;
-    background-color: #1e1e1e;
-    box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
+}
+.ResumeCard a:visited {
+    color: white;
+}
+.ResumeCard a:hover {
+    color: #83BD75;
+}
+
+.PGCard {
+    position: absolute;
+    top: 850px;
+    right: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
     text-align: center;
     font-family: 'Inconsolata', monospace;
 }
 
-.ResumeCard a:visited {
-    color: white;
+.BachelorCard {
+    position: absolute;
+    top: 900px;
+    right: -400px;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 5px;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
+    display: flex;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.SkillCard {
+    position: absolute;
+    top: 800px;
+    left: 400px;
+    padding: 20px;
+    max-width: 350px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.SkillDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SkillBtn{
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
+}
+
+.SkillCard button:hover {
+    background: none;
+}
+
+.SkillImg{
+    height: 80px;
+    width: 80px;
+}
+
+
+.InterestCard {
+    position: absolute;
+    top: 100px;
+    right: -100px;
+    padding: 20px;
+    max-width: 350px;
+    border-radius: 5px;
+    background: #1e1e1e;
+    box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
+    display: flex;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.InterestList {
+    text-align: center;
 }

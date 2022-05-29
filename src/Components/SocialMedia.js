@@ -34,7 +34,7 @@ const SocialMedia = () => {
 
             </a>
 
-            <a
+            <a  className='Email'
                 onClick={(e) => {
                 window.location.href = "mailto:dakshpatel664@gmail.com";
                 e.preventDefault();
