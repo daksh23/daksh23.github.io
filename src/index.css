@@ -7,8 +7,12 @@ html {
     cursor: pointer;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    height: 1200px;
-    width: 2200px;
+    height: 1500px;
+    width: 2900px;
+    min-width: 2900px;
+    min-height: 2900px;
+    margin: auto;
+    display: inline-block;
     background: #1e1e1e;
     -ms-overflow-style: none;
     /* for Internet Explorer, Edge */
@@ -23,10 +27,13 @@ body::-webkit-scrollbar {
 
 .ProfileCard {
     position: absolute;
-    top: 298px;
-    left: 725px;
+    top: 300px;
+    left: 770px;
+    /* position: relative; */
+    display: inline-block;
     padding: 20px;
     max-width: 350px;
+    min-width: 350px;
     border-radius: 5px;
     background: #1e1e1e;
     box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
@@ -39,6 +46,7 @@ body::-webkit-scrollbar {
     position: absolute;
     top: 200px;
     max-width: 350px;
+    min-width: 350px;
     left: 120px;
     padding: 20px;
     border-radius: 5px;
@@ -80,8 +88,8 @@ body::-webkit-scrollbar {
 
 .ResumeCard {
     position: absolute;
-    top: 700px;
-    right: 500px;
+    top: 850px;
+    left: 700px;
     padding: 20px;
     border-radius: 5px;
     background: #1e1e1e;
@@ -96,8 +104,10 @@ body::-webkit-scrollbar {
 
 .PGCard {
     position: absolute;
-    top: 850px;
-    right: 10px;
+    top: 1050px;
+    min-width: 320px;
+    max-width: 320px;
+    left: 1000px;
     padding: 20px;
     border-radius: 5px;
     background: #1e1e1e;
@@ -108,10 +118,12 @@ body::-webkit-scrollbar {
 
 .BachelorCard {
     position: absolute;
-    top: 900px;
-    right: -400px;
+    top: 1100px;
+    left: 1400px;
     padding: 20px;
-    max-width: 350px;
+    max-width: 320px;
+    min-width: 320px;
+
     border-radius: 5px;
     background: #1e1e1e;
     box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
@@ -122,10 +134,11 @@ body::-webkit-scrollbar {
 
 .SkillCard {
     position: absolute;
-    top: 800px;
-    left: 400px;
+    top: 1000px;
+    left: 200px;
     padding: 20px;
     max-width: 350px;
+    min-width: 350px;
     font-family: 'Inconsolata', monospace;
 }
 
@@ -159,9 +172,10 @@ body::-webkit-scrollbar {
 .InterestCard {
     position: absolute;
     top: 100px;
-    right: -100px;
+    left: 1500px;
     padding: 20px;
     max-width: 350px;
+    min-width: 350px;
     border-radius: 5px;
     background: #1e1e1e;
     box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
@@ -172,4 +186,48 @@ body::-webkit-scrollbar {
 
 .InterestList {
     text-align: center;
+}
+
+.JpstarviewCard{ 
+    position: absolute;
+    top: 1500px;
+    left: 1200px;
+    padding: 20px;
+    max-width: 320px;
+    min-width: 320px;
+
+    border-radius: 5px;
+    background: #1e1e1e;
+    box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
+    display: flex;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+
+}
+
+.MotivationCard{
+    position: absolute;
+    max-width: 600px;
+    top: 1700px;
+    min-width: 600px;
+    left: 120px;
+    padding: 20px;
+    border-radius: 5px;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.TinderSaySoCard{
+    position: absolute;
+    top: 500px;
+    left: 1500px;
+    min-width: 350px;
+    max-width: 350px;
+    border-radius: 5px;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
 }

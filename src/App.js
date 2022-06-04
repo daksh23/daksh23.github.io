@@ -8,6 +8,10 @@ import PG from './Components/Education/PG';
 import Bachelor from './Components/Education/Bachelor';
 import Skills from './Components/Skills';
 import Interest from './Components/Interest';
+import JPstarview from './Components/Work/JPstarview';
+import Motivation from './Components/Motivation';
+import TinderSaySo from './Components/Projects/TinderSaySo';
+import Svg from './Extra/Svg';
 
 function App() {
 
@@ -59,6 +63,10 @@ function App() {
                 <Bachelor />
                 <Skills />
                 <Interest />
+                <JPstarview />
+                <Motivation />
+                <TinderSaySo />
+                {/* <Svg /> */}
             </div>
     );
 }

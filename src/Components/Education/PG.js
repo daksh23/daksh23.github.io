@@ -9,9 +9,9 @@ const PG = () => {
 
     return (
         <Stack direction="column" spacing={2} className="PGCard">
-            <h3>
+            <h2>
                 Post Graduation
-            </h3>
+            </h2>
             <h4>
                 {code}
                 Mobile Solutions Development
