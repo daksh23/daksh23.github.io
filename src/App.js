@@ -12,6 +12,8 @@ import JPstarview from './Components/Work/JPstarview';
 import Motivation from './Components/Motivation';
 import TinderSaySo from './Components/Projects/TinderSaySo';
 import Svg from './Extra/Svg';
+import CompanyNGames from './Components/Projects/CompanyNGames';
+import Symoti from './Components/Projects/Symoti';
 
 function App() {
 
@@ -67,6 +69,8 @@ function App() {
                 <Motivation />
                 <TinderSaySo />
                 {/* <Svg /> */}
+                <CompanyNGames />
+                <Symoti />
             </div>
     );
 }

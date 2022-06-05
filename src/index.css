@@ -3,33 +3,33 @@ html {
     margin: 0;
     padding: 0;
     user-select: none;
-    padding: 120px;
+    padding: 30px;
     cursor: pointer;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    height: 1500px;
-    width: 2900px;
-    min-width: 2900px;
-    min-height: 2900px;
+    height: 1900px;
+    min-height: 1900px;
+    width: 2500px;
+    min-width: 2500px;
     margin: auto;
     display: inline-block;
     background: #1e1e1e;
     -ms-overflow-style: none;
-    /* for Internet Explorer, Edge */
     scrollbar-width: none;
-    /* for Firefox */
+
+    -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 90%; /* Webkit browsers */
 }
 
 body::-webkit-scrollbar {
     display: none;
-    /* for Chrome, Safari, and Opera */
 }
 
 .ProfileCard {
     position: absolute;
     top: 300px;
     left: 770px;
-    /* position: relative; */
     display: inline-block;
     padding: 20px;
     max-width: 350px;
@@ -222,7 +222,33 @@ body::-webkit-scrollbar {
 .TinderSaySoCard{
     position: absolute;
     top: 500px;
-    left: 1500px;
+    left: 2000px;
+    min-width: 350px;
+    max-width: 350px;
+    border-radius: 5px;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.GamesCard{
+    position: absolute;
+    top: 540px;
+    left: 2400px;
+    min-width: 350px;
+    max-width: 350px;
+    border-radius: 5px;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.SymotiCard{
+    position: absolute;
+    top: 200px;
+    left: 2400px;
     min-width: 350px;
     max-width: 350px;
     border-radius: 5px;
