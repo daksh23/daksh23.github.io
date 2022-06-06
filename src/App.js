@@ -14,6 +14,7 @@ import TinderSaySo from './Components/Projects/TinderSaySo';
 import Svg from './Extra/Svg';
 import CompanyNGames from './Components/Projects/CompanyNGames';
 import Symoti from './Components/Projects/Symoti';
+import { BETA } from './Components/BETA';
 
 function App() {
 
@@ -71,6 +72,7 @@ function App() {
                 {/* <Svg /> */}
                 <CompanyNGames />
                 <Symoti />
+                <BETA />
             </div>
     );
 }

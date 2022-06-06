@@ -3,8 +3,8 @@ html {
     margin: 0;
     padding: 0;
     user-select: none;
-    padding: 30px;
-    cursor: pointer;
+    padding: 10px;
+    cursor: move;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     height: 1900px;
@@ -28,7 +28,7 @@ body::-webkit-scrollbar {
 
 .ProfileCard {
     position: absolute;
-    top: 300px;
+    top: 400px;
     left: 770px;
     display: inline-block;
     padding: 20px;
@@ -45,9 +45,9 @@ body::-webkit-scrollbar {
 .StoryCard {
     position: absolute;
     top: 200px;
+    left: 120px;
     max-width: 350px;
     min-width: 350px;
-    left: 120px;
     padding: 20px;
     border-radius: 5px;
     background: #1e1e1e;
@@ -88,8 +88,8 @@ body::-webkit-scrollbar {
 
 .ResumeCard {
     position: absolute;
-    top: 850px;
-    left: 700px;
+    top: 600px;
+    left: 500px;
     padding: 20px;
     border-radius: 5px;
     background: #1e1e1e;
