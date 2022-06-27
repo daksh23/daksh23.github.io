@@ -5,7 +5,7 @@ import {Stack} from '@mui/material'
 const Resume = () => {
   return (
     <Stack direction="Column" spacing={2} className="ResumeCard">
-         <a href="https://firebasestorage.googleapis.com/v0/b/images-af837.appspot.com/o/Latest_Daksh_Patel.pdf?alt=media&token=e0b7a1fa-90bb-4ed6-b5b7-1b2f6c016a1b" target = "_blank">
+         <a href="https://firebasestorage.googleapis.com/v0/b/images-af837.appspot.com/o/Daksh_Patel_CV.pdf?alt=media&token=4194a67a-e34d-4e64-a7e1-40d388f5aceb" target = "_blank">
            <InsertDriveFileIcon fontSize='large'/>
          </a>
     </Stack>
