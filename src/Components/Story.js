@@ -18,12 +18,7 @@ const Story = () => {
                 Story
             </h2>
             <p className='Story'>
-
-                👽 I'm a young developer looking for creative and world-changing projects. I was
-                born in India and I am currently living in Canada. 🎓 I completed my Bachelor of
-                Engineering from Gujarat University, India and Post graduation from Conestoga
-                College, waterloo ✍️ I’m currently learning Aws and Cloud computing. 🧑‍💻 I
-                love writing code and learn anythings about it
+                    👽 I'm Daksh Patel, A passionate Computer Engineer & Software Developer from India, who currently living in Canada. 🎓 I completed A Bachelor of Engineering from Gujarat University, India ✍️ I’m currently learning Azure and Cloud computing. 🧑‍💻 I love writing code and learning anything about it
             </p>
         </Stack>
     )
