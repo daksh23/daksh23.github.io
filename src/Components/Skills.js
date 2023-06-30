@@ -66,6 +66,18 @@ const Skills = () => {
                     <div className='SkillBtn'>
                         <img src="/images/git.png" alt='git' className='SkillImg'/>
                     </div>
+
+                    <div className='SkillBtn'>
+                        <img src="/images/spring-boot.png" alt='spring-boot' className='SkillImg'/>
+                    </div>
+                </Stack>
+            </div>
+            
+            <div className='SkillDiv'>
+                <Stack direction="column" spacing={2}>
+                    <div className='SkillBtn'>
+                        <img src="/images/angular.png" alt='angular' className='SkillImg'/>
+                    </div>
                 </Stack>
             </div>
 

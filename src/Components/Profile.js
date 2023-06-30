@@ -29,7 +29,7 @@ const Profile = () => {
                 <LocationOnIcon fontSize='small'/>
                 Waterloo, ON, Canada (GMT-4)
             </p>
-            <p> {code} © 2022 made by me, All Rights Reserved</p>
+            <p> {code} © 2023 made by me, All Rights Reserved</p>
         </Stack>
     )
 }
