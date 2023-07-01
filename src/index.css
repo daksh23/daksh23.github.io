@@ -1,16 +1,13 @@
 body,
 html {
-    margin: 0;
-    padding: 0;
     user-select: none;
     padding: 10px;
     cursor: move;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    height: 1900px;
-    min-height: 1900px;
-    width: 2500px;
-    min-width: 2500px;
+    height: 100%;
+    min-height: 2200px;
+    min-width: 3000px;
     margin: auto;
     display: inline-block;
     background: #1e1e1e;
@@ -26,10 +23,35 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.BetaLabel{
+    top: 800px;
+    left: 800px;
+    position: absolute;
+    display: inline-block;
+    display: flex;
+    font-size: 40px;
+    font-weight:bold;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.WatchCard{
+    position: absolute;
+    top: 100px;
+    left: 180px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #1e1e1e;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
+    display: flex;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+}
+
 .ProfileCard {
     position: absolute;
-    top: 400px;
-    left: 770px;
+    top: 700px;
+    left: 1300px;
     display: inline-block;
     padding: 20px;
     max-width: 350px;
@@ -44,8 +66,8 @@ body::-webkit-scrollbar {
 
 .StoryCard {
     position: absolute;
-    top: 200px;
-    left: 120px;
+    top: 350px;
+    left: 500px;
     max-width: 350px;
     min-width: 350px;
     padding: 20px;
@@ -62,8 +84,8 @@ body::-webkit-scrollbar {
 
 .SocialMediaCard {
     position: absolute;
-    top: 600px;
-    left: 150px;
+    top: 850px;
+    left: 300px;
     padding: 20px;
     border-radius: 5px;
     background: #1e1e1e;
@@ -88,8 +110,8 @@ body::-webkit-scrollbar {
 
 .ResumeCard {
     position: absolute;
-    top: 600px;
-    left: 500px;
+    top: 1000px;
+    left: 2000px;
     padding: 20px;
     border-radius: 5px;
     background: #1e1e1e;
@@ -104,7 +126,7 @@ body::-webkit-scrollbar {
 
 .PGCard {
     position: absolute;
-    top: 1050px;
+    top: 1350px;
     min-width: 320px;
     max-width: 320px;
     left: 1000px;
@@ -118,12 +140,11 @@ body::-webkit-scrollbar {
 
 .BachelorCard {
     position: absolute;
-    top: 1100px;
+    top: 1300px;
     left: 1400px;
     padding: 20px;
     max-width: 320px;
     min-width: 320px;
-
     border-radius: 5px;
     background: #1e1e1e;
     box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
@@ -134,8 +155,8 @@ body::-webkit-scrollbar {
 
 .SkillCard {
     position: absolute;
-    top: 1000px;
-    left: 200px;
+    top: 1200px;
+    left: 2400px;
     padding: 20px;
     max-width: 350px;
     min-width: 350px;
@@ -172,7 +193,7 @@ body::-webkit-scrollbar {
 .InterestCard {
     position: absolute;
     top: 100px;
-    left: 1500px;
+    left: 1600px;
     padding: 20px;
     max-width: 350px;
     min-width: 350px;
@@ -190,12 +211,11 @@ body::-webkit-scrollbar {
 
 .JpstarviewCard{ 
     position: absolute;
-    top: 1500px;
-    left: 1200px;
+    top: 1600px;
+    left: 220px;
     padding: 20px;
     max-width: 320px;
     min-width: 400px;
-
     border-radius: 5px;
     background: #1e1e1e;
     box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
@@ -207,12 +227,11 @@ body::-webkit-scrollbar {
 
 .ZorensCard{ 
     position: absolute;
-    top: 1600px;
-    left: 1700px;
+    top: 1900px;
+    left: 300px;
     padding: 20px;
     max-width: 320px;
-    min-width: 320px;
-
+    min-width: 400px;
     border-radius: 5px;
     background: #1e1e1e;
     box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
@@ -225,10 +244,9 @@ body::-webkit-scrollbar {
 
 .MotivationCard{
     position: absolute;
-    max-width: 600px;
-    top: 1700px;
-    min-width: 600px;
-    left: 120px;
+    top: 1200px;
+    left: 60px;
+    min-width: 400px;
     padding: 20px;
     border-radius: 5px;
     background: #1e1e1e;
@@ -239,8 +257,8 @@ body::-webkit-scrollbar {
 
 .TinderSaySoCard{
     position: absolute;
-    top: 500px;
-    left: 2000px;
+    top: 580px;
+    left: 2400px;
     min-width: 350px;
     max-width: 350px;
     border-radius: 5px;
@@ -253,7 +271,7 @@ body::-webkit-scrollbar {
 .GamesCard{
     position: absolute;
     top: 540px;
-    left: 2400px;
+    left: 2800px;
     min-width: 350px;
     max-width: 350px;
     border-radius: 5px;
@@ -266,7 +284,7 @@ body::-webkit-scrollbar {
 .SymotiCard{
     position: absolute;
     top: 200px;
-    left: 2400px;
+    left: 2500px;
     min-width: 350px;
     max-width: 350px;
     border-radius: 5px;

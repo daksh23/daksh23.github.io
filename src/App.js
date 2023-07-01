@@ -11,13 +11,16 @@ import Interest from './Components/Interest';
 import JPstarview from './Components/Work/JPstarview';
 import Motivation from './Components/Motivation';
 import TinderSaySo from './Components/Projects/TinderSaySo';
-import Svg from './Extra/Svg';
 import CompanyNGames from './Components/Projects/CompanyNGames';
 import Symoti from './Components/Projects/Symoti';
 import { BETA } from './Components/BETA';
+import Watch from './Components/Watch'
 import Zorens from './Components/Work/Zorens';
 
 function App() {
+
+    const xCoordinate = 300;
+    const yCoordinate = 300; 
 
     $.dragScroll = function () {
         var settings = $.extend({scrollVertical: true, scrollHorizontal: true});
@@ -50,9 +53,16 @@ function App() {
             }
         });
     };
+  
+    const scrollToPosition = () => {
+        const $el = $('html, body');
+        $el.scrollTop(yCoordinate);
+        $el.scrollLeft(xCoordinate);
+      };
 
     useEffect(() => {
-        $.dragScroll(); //actual function call
+        $.dragScroll();
+        scrollToPosition();
     });
 
     return (
@@ -75,6 +85,7 @@ function App() {
                 <CompanyNGames />
                 <Symoti />
                 <BETA />
+                <Watch />
             </div>
     );
 }

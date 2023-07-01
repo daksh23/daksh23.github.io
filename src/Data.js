@@ -1,3 +1,1 @@
-export const Quote = "Let all your efforts be directed to something, let it keep that end in view. It'" +
-        "s not activity that disturbs people, but false conceptions of things that drive " +
-        "them mad.";
+export const Quote = "Don't push yourself too hard; sometimes, a little effort is good enough.";
