@@ -21,7 +21,7 @@ const Interest = () => {
         </h2>
 
         <p className='InterestList'>
-            Books | Movies and Tv series | Music | Sports | Digital Currency and Art
+            Books | Movies and Tv series | Music | Sports | Digital Currency and Art | Drones
         </p>
         <p> {code} 
         <BookIcon fontSize='small'/> Daily Stoic By Ryan Holiday </p>
@@ -33,6 +33,8 @@ const Interest = () => {
         <SportsCricketIcon fontSize='small' /> Cricket and Vollyball </p>
         <p>{code} 
         <PaidIcon fontSize='small' /> Etherium and CryptoPunks </p>
+        <p>{code} 
+        <PaidIcon fontSize='small' /> DJI Mavic 3 </p>
     </Stack>
   )
 }

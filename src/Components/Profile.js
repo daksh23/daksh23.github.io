@@ -18,7 +18,7 @@ const Profile = () => {
                 src="/images/avtar_con.png"/>
             <h3>
                 {code}
-                 Hi there, I'm Daksh Patel
+                 Hi there, My name is Daksh
             </h3>
             <p>
                 {code}
