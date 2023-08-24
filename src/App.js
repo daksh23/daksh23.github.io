@@ -13,9 +13,9 @@ import Motivation from './Components/Motivation';
 import TinderSaySo from './Components/Projects/TinderSaySo';
 import CompanyNGames from './Components/Projects/CompanyNGames';
 import Symoti from './Components/Projects/Symoti';
-import { BETA } from './Components/BETA';
 import Watch from './Components/Watch'
 import Zorens from './Components/Work/Zorens';
+import { WebVersion } from './Components/WebVersion';
 
 function App() {
 
@@ -84,7 +84,7 @@ function App() {
                 {/* <Svg /> */}
                 <CompanyNGames />
                 <Symoti />
-                <BETA />
+                <WebVersion />
                 <Watch />
             </div>
     );

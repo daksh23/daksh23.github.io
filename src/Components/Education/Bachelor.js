@@ -2,10 +2,9 @@ import {Stack} from '@mui/material'
 import React from 'react'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import DoneIcon from '@mui/icons-material/Done';
+import { data } from '../../Constant/data';
 
 const Bachelor = () => {
-
-    const code = ">_ ";
 
     return (
         <Stack direction="column" spacing={2} className="BachelorCard">
@@ -13,25 +12,25 @@ const Bachelor = () => {
                 Bachelor of Engineering
             </h2>
             <h4>
-                {code}
+                {data.code}
                 Computer Engineering
             </h4>
             <p>
-                {code}
+                {data.code}
                 Smt. S.R.Patel Engineering College
             </p>
             <p>
-                {code}
+                {data.code}
                 <LocationOnIcon fontSize='small'/>
                 Unjha, Gujarat, India (GMT-4)
             </p>
             <p>
-                {code}
+                {data.code}
                 <DoneIcon color="success" fontSize="small"/>
                 Completed 2019
             </p>
             <p>
-                {code}
+                {data.code}
                 CGA: 8.48( out of 10)
             </p>
         </Stack>
