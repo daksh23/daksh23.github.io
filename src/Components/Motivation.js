@@ -1,15 +1,14 @@
 import React from 'react'
 import { Stack } from '@mui/material'
 import { Quote } from '../Data'
+import { data } from '../Constant/data'
 
 const Motivation = () => {
     
-    const code = ">_ " + " ";
-
     return (
     <Stack direction="column" spacing={2} className="MotivationCard">
-        <h2> Quote ✍️ </h2>
-        <p> {code} "{Quote}" </p>
+        <h2> Quote <span> {data.textIcon.writing} </span> </h2>
+        <p> {data.code} "{Quote}" </p>
     </Stack>
   )
 }

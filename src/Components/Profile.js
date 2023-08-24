@@ -2,10 +2,9 @@ import React from 'react'
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { data } from '../Constant/data';
 
 const Profile = () => {
-
-    const code = ">_" + " ";
 
     return (
         <Stack direction="column" spacing={2} className="ProfileCard">
@@ -17,19 +16,19 @@ const Profile = () => {
             }}
                 src="/images/avtar_con.png"/>
             <h3>
-                {code}
+                {data.code}
                  Hi there, My name is Daksh
             </h3>
             <p>
-                {code}
+                {data.code}
                 Computer Engineer and Software Developer
             </p>
             <p>
-                {code}
+                {data.code}
                 <LocationOnIcon fontSize='small'/>
                 Waterloo, ON, Canada (GMT-4)
             </p>
-            <p> {code} © 2023 made by me, All Rights Reserved</p>
+            <p> {data.code} © 2023 made by me, All Rights Reserved</p>
         </Stack>
     )
 }
