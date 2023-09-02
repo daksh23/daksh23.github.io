@@ -1,10 +1,12 @@
 import React from 'react'
 import { data } from '../Constant/data'
 
-export const WebVersion = () => {
+const WebVersion = () => {
   return (
         <h2 className='BetaLabel'> 
           {data.version}
         </h2>
   )
 }
+
+export default WebVersion;

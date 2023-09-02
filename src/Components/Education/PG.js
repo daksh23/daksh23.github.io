@@ -2,11 +2,9 @@ import {Stack} from '@mui/material'
 import React from 'react'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import DoneIcon from '@mui/icons-material/Done';
-import { data } from '../../Constant/data';
+import { data } from '../Constant/data';
 
 const PG = () => {
-
-    const code = ">_ ";
 
     return (
         <Stack direction="column" spacing={2} className="PGCard">

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Stack} from '@mui/material'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { data } from '../../Constant/data';
+import { data } from '../Constant/data';
 
 const Zorens = () => {
 
