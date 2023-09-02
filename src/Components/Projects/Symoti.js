@@ -4,8 +4,8 @@ import { data } from '../../Constant/data'
 
 const Symoti = () => {
   return (
-    <Stack direction="column" spacing={2} className="SymotiCard">
-        <h2>Symoti <span className='GreenDot'>{data.textIcon.greenDot}</span></h2>
+    <Stack direction="column" spacing={1} className="SymotiCard">
+        <h2>Symoti<span className='GreenDot'>{data.textIcon.greenDot}</span></h2>
         <img
                 src="https://firebasestorage.googleapis.com/v0/b/images-af837.appspot.com/o/Symoti.png?alt=media&token=eb48553e-9805-41ba-9732-cbcd7e011edd"
                 alt="CompanyNGames"

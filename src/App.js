@@ -16,6 +16,7 @@ import Symoti from './Components/Projects/Symoti';
 import Watch from './Components/Watch'
 import Zorens from './Components/Work/Zorens';
 import { WebVersion } from './Components/WebVersion';
+import SpringBootSSO from './Components/Projects/SpringBootSSO';
 
 function App() {
 
@@ -69,21 +70,25 @@ function App() {
             <div style={{
                 color: "white"
             }}>
+                {/* Projects */}
+                <TinderSaySo />
+                <CompanyNGames />
+                <Symoti />
+                <SpringBootSSO />
+                {/* Personal Details */}
                 <Profile />
                 <Story />
-                <SocialMedia />
-                <Resume />
+                {/* Skills and Experience */}
                 <PG />
                 <Bachelor />
                 <Skills />
-                <Interest />
+                <Resume />
                 <JPstarview />
                 <Zorens />
+                {/* Extra Stuffs */}
+                <SocialMedia />
+                <Interest />
                 <Motivation />
-                <TinderSaySo />
-                {/* <Svg /> */}
-                <CompanyNGames />
-                <Symoti />
                 <WebVersion />
                 <Watch />
             </div>
