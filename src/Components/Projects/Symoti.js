@@ -1,6 +1,6 @@
 import React from 'react'
 import {Stack} from '@mui/material'
-import { data } from '../../Constant/data'
+import { data } from '../Constant/data'
 
 const Symoti = () => {
   return (

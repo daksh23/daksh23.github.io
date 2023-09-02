@@ -1,6 +1,6 @@
 import { Stack } from '@mui/material'
 import React from 'react'
-import { data } from '../../Constant/data'
+import { data } from '../Constant/data'
 
 const CompanyNGames = () => {
   return (

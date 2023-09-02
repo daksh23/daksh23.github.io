@@ -5,7 +5,8 @@ import MovieIcon from '@mui/icons-material/Movie';
 import SportsCricketIcon from '@mui/icons-material/SportsCricket';
 import PaidIcon from '@mui/icons-material/Paid';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
-import { data } from '../Constant/data'
+import { data } from '../Constant/data';
+import HighlightOffIcon from '@mui/icons-material/HighlightOff';
 
 const Interest = () => {
 
@@ -33,7 +34,7 @@ const Interest = () => {
         <p>{data.code} 
         <PaidIcon fontSize='small' /> Etherium and CryptoPunks </p>
         <p>{data.code} 
-        <PaidIcon fontSize='small' /> DJI Mavic 3 </p>
+        <HighlightOffIcon fontSize='small' /> DJI Mavic 3 </p>
     </Stack>
   )
 }

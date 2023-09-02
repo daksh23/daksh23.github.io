@@ -1,22 +1,28 @@
-import React, {useEffect, useRef} from 'react'
+import React, {useEffect} from 'react';
 import $ from "jquery";
-import Profile from './Components/Profile';
-import Story from './Components/Story';
-import SocialMedia from './Components/SocialMedia';
-import Resume from './Components/Resume';
-import PG from './Components/Education/PG';
-import Bachelor from './Components/Education/Bachelor';
-import Skills from './Components/Skills';
-import Interest from './Components/Interest';
-import JPstarview from './Components/Work/JPstarview';
-import Motivation from './Components/Motivation';
+
 import TinderSaySo from './Components/Projects/TinderSaySo';
 import CompanyNGames from './Components/Projects/CompanyNGames';
 import Symoti from './Components/Projects/Symoti';
-import Watch from './Components/Watch'
-import Zorens from './Components/Work/Zorens';
-import { WebVersion } from './Components/WebVersion';
 import SpringBootSSO from './Components/Projects/SpringBootSSO';
+
+import Interest from './Components/Personal/Interest';
+import Profile from './Components/Personal/Profile';
+import Story from './Components/Personal/Story';
+import Resume from './Components/Personal/Resume';
+import Skills from './Components/Personal/Skills';
+import SocialMedia from './Components/Personal/SocialMedia';
+
+import JPstarview from './Components/Work/JPstarview';
+import Zorens from './Components/Work/Zorens';
+
+import PG from './Components/Education/PG';
+import Bachelor from './Components/Education/Bachelor';
+
+import Motivation from './Components/ExtraCards/Motivation';
+import Watch from './Components/ExtraCards/Watch';
+import WebVersion from './Components/ExtraCards/WebVersion';
+
 
 function App() {
 

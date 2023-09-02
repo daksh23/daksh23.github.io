@@ -7,5 +7,6 @@ export const data = {
         codeBoy:"🧑‍💻"
     },
     code:">_ ",
-    version:"BETA"
+    version:"BETA",
+    Quote:"Don't push yourself too hard; sometimes, a little effort is good enough."
 }
