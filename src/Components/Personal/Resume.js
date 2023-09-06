@@ -8,7 +8,9 @@ const Resume = () => {
             <a href="https://daksh23.github.io" target="_blank" rel='noreferrer'>
                 <InsertDriveFileIcon fontSize='large'/>
             </a>
-            <span class="tooltip_text">Resume</span>
+            <span class="tooltip_text">
+            <p className="getInTouch">Resume</p>
+            </span>
         </Stack>
     )
 }

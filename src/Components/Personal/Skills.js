@@ -77,6 +77,12 @@ const Skills = () => {
                     <div className='SkillBtn'>
                         <img src="/images/angular.png" alt='angular' className='SkillImg'/>
                     </div>
+                    <div className='SkillBtn'>
+                        <img src="/images/veracode.webp" alt='veracode' className='SkillImg'/>
+                    </div>
+                    <div className='SkillBtn'>
+                        <img src="/images/sql.png" alt='sql' className='SkillImg'/>
+                    </div>
                 </Stack>
             </div>
 

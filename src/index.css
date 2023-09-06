@@ -327,7 +327,7 @@ body::-webkit-scrollbar {
 .tooltip .tooltip_text {
     visibility: hidden;
     font-size: 18px;
-    padding: 10px;
+    padding:0px;
     background-color: black;
     color: white;
     text-align: center;
@@ -344,4 +344,13 @@ body::-webkit-scrollbar {
 .tooltip:hover .tooltip_text {
     visibility: visible;
     opacity: 0.5;
+}
+
+.tooltip .tooltip_text .getInTouch{
+    padding: 0px;
+    width: 150px;
+}
+
+.tooltip .tooltip_text .resume{
+    padding: 0px;
 }
