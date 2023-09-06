@@ -7,6 +7,7 @@ import PaidIcon from '@mui/icons-material/Paid';
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import { data } from '../Constant/data';
 import HighlightOffIcon from '@mui/icons-material/HighlightOff';
+import CasinoIcon from '@mui/icons-material/Casino';
 
 const Interest = () => {
 
@@ -21,20 +22,24 @@ const Interest = () => {
         </h2>
 
         <p className='InterestList'>
-            Books | Movies and Tv series | Music | Sports | Digital Currency and Art | Drones
+            {data.Interest.Title}
         </p>
         <p> {data.code} 
-        <BookIcon fontSize='small'/> Daily Stoic By Ryan Holiday </p>
+        <BookIcon fontSize='small'/> {data.Interest.Book} </p>
         <p> {data.code}
-        <MovieIcon fontSize='small'/> MCU & Breaking Bad</p>
+        <MovieIcon fontSize='small'/> {data.Interest.Book} </p>
+        <p> {data.code}
+        <MovieIcon fontSize='small'/> {data.Interest.MovieAndSeries} </p>
         <p>{data.code} 
-        <MusicNoteIcon /> Music By Camila Cabello</p>
+        <MusicNoteIcon /> {data.Interest.Music}</p>
         <p> {data.code} 
-        <SportsCricketIcon fontSize='small' /> Cricket and Vollyball </p>
+        <SportsCricketIcon fontSize='small' /> {data.Interest.Sports} </p>
         <p>{data.code} 
-        <PaidIcon fontSize='small' /> Etherium and CryptoPunks </p>
+        <PaidIcon fontSize='small' /> {data.Interest.Treading} </p>
         <p>{data.code} 
-        <HighlightOffIcon fontSize='small' /> DJI Mavic 3 </p>
+        <HighlightOffIcon fontSize='small' /> {data.Interest.Drones} </p>
+        <p>{data.code} 
+        <CasinoIcon fontSize='small' /> {data.Interest.Games} </p>
     </Stack>
   )
 }

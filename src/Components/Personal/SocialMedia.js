@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import Stack from '@mui/material/Stack';
 import TwitterIcon from '@mui/icons-material/Twitter';
@@ -7,7 +8,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const SocialMedia = () => {
     return (
-        <Stack direction="row" spacing={2} className="SocialMediaCard">
+        <Stack direction="row" spacing={2} className="SocialMediaCard tooltip">
             <a
                 className='Twitter'
 
@@ -34,16 +35,17 @@ const SocialMedia = () => {
 
             </a>
 
-            <a  className='Email'
-                onClick={(e) => {
-                window.location.href = "mailto:dakshpatel664@gmail.com";
+            <a  className='Email' onClick={
+                (e) => { window.location.href = "mailto:dakshpatel664@gmail.com";
                 e.preventDefault();
             }}
                 target="_blank"
                 rel="noopener noreferrer">
                 <EmailIcon/>
             </a>
-
+            <span class="tooltip_text">
+                <p className="getInTouch">Get In Touch</p>
+            </span>
         </Stack>
     )
 
