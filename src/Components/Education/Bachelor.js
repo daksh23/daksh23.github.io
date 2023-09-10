@@ -9,7 +9,7 @@ const Bachelor = () => {
     return (
         <Stack direction="column" spacing={2} className="BachelorCard">
             <h2>
-                Bachelor of Engineering
+                {data.heading.Education.BE}
             </h2>
             <h4>
                 {data.code}

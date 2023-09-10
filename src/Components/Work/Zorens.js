@@ -8,11 +8,11 @@ const Zorens = () => {
     return (
         <Stack direction="column" spacing={2} className="ZorensCard">
             <h2>
-                Jr. Software Developer
+                {data.heading.Work.Zorens}
             </h2>
             <h3>
                 {data.code}
-               Zorens InfoTech PVT.LTD
+                Jr. Software Developer
             </h3>
             <p>
                 {data.code}

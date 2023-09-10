@@ -13,15 +13,29 @@ html {
     background: #1e1e1e;
     -ms-overflow-style: none;
     scrollbar-width: none;
-
+    font-family: 'Inconsolata', monospace;
+    
     -moz-transform: scale(0.8, 0.8); /* Moz-browsers */
     zoom: 0.8; /* Other non-webkit browsers */
     zoom: 90%; /* Webkit browsers */
 }
 
 p{
-    color: #F2E8C6;
+    color:#EEEEEE;
+}   
+
+h2{
+    color: #F5F5F5;
 }
+
+h3 {
+    color: #F5F5F5;
+}
+
+.InterestList {
+    text-align: center;
+}
+
 
 body::-webkit-scrollbar {
     display: none;
@@ -175,6 +189,9 @@ body::-webkit-scrollbar {
 }
 
 .SkillBtn{
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s;
     height: auto;
     width: auto;
     border-radius: 10px;
@@ -186,6 +203,10 @@ body::-webkit-scrollbar {
 
 .SkillCard button:hover {
     background: none;
+}
+
+.SkillBtn img:hover {
+    transform: scale(1.1); /* Increase the scale (size) on hover */
 }
 
 .SkillImg{
@@ -203,14 +224,10 @@ body::-webkit-scrollbar {
     min-width: 350px;
     border-radius: 5px;
     background: #1e1e1e;
-    box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
     display: flex;
     align-items: center;
     font-family: 'Inconsolata', monospace;
-}
-
-.InterestList {
-    text-align: center;
 }
 
 .JpstarviewCard{ 
@@ -222,7 +239,7 @@ body::-webkit-scrollbar {
     min-width: 400px;
     border-radius: 5px;
     background: #1e1e1e;
-    box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
     display: flex;
     align-items: center;
     font-family: 'Inconsolata', monospace;
@@ -238,7 +255,7 @@ body::-webkit-scrollbar {
     min-width: 400px;
     border-radius: 5px;
     background: #1e1e1e;
-    box-shadow: 20px 20px 40px #181818, -20px -20px 40px #242424;
+    box-shadow: 10px 10px 20px #181818, -10px -10px 20px #242424;
     display: flex;
     align-items: center;
     font-family: 'Inconsolata', monospace;
@@ -313,8 +330,7 @@ body::-webkit-scrollbar {
 
 .GreenDot{
     font-size: 15px;
-    animation: blinker 1s linear infinite;
-    padding: 0px;
+    animation: blinker 2s linear infinite;
 }
 
 @keyframes blinker {
