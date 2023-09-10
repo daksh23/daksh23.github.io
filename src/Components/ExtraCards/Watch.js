@@ -9,9 +9,9 @@ let options = {
   centerColor: "#2e2e2e",
   centerBorderColor: "#ffffff",
   handColors: {
-    second: "yellow",
-    minute: "#ffffff",
-    hour: "#ffffff"
+    second: "#FDD36A",
+    minute: "#F0E5CF",
+    hour: "#F0E5CF"
   }
 };
 

@@ -9,7 +9,7 @@ const PG = () => {
     return (
         <Stack direction="column" spacing={2} className="PGCard">
             <h2>
-                Post Graduation
+                {data.heading.Education.PG}
             </h2>
             <h4>
                 {data.code}

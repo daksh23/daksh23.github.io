@@ -7,8 +7,8 @@ const JPstarview = () => {
 
   return (
     <Stack direction="column" spacing={2} className="JpstarviewCard">
-        <h2> Freelance Software Developer </h2>
-        <h3> {data.code} JP Starview Infosys </h3>
+        <h2> {data.heading.Work.Jp} </h2>
+        <h3> {data.code} Freelance Software Developer </h3>
         <p> 
         {data.code} <LocationOnIcon fontSize='small' />Patan, Gujarat, India (GMT-4)
         </p>
