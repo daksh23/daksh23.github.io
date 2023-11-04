@@ -12,6 +12,7 @@ import Story from './Personal/Story';
 import Resume from './Personal/Resume';
 import Skills from './Personal/Skills';
 import SocialMedia from './Personal/SocialMedia';
+import Certification from './Personal/Certification';
 
 import JPstarview from './Work/JPstarview';
 import Zorens from './Work/Zorens';
@@ -97,6 +98,7 @@ const ComponentIndex = () => {
                 <Motivation />
                 <WebVersion />
                 <Watch />
+                <Certification />
             </div>
     );
 }

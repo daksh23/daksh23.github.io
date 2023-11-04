@@ -181,6 +181,16 @@ body::-webkit-scrollbar {
     font-family: 'Inconsolata', monospace;
 }
 
+.certiCard {
+    position: absolute;
+    top: 1800px;
+    left: 2000px;
+    padding: 20px;
+    max-width: 350px;
+    min-width: 350px;
+    font-family: 'Inconsolata', monospace;
+}
+
 .SkillDiv{
     display: flex;
     flex-direction: column;
