@@ -8,24 +8,20 @@ const Zorens = () => {
     return (
         <Stack direction="column" spacing={2} className="ZorensCard">
             <h2>
-                {data.heading.Work.Zorens}
+                {data.heading.Work.Zorens.Role}
             </h2>
             <h3>
                 {data.code}
-                Jr. Software Developer
+                {data.heading.Work.Zorens.Title}
             </h3>
             <p>
                 {data.code}
                 <LocationOnIcon fontSize='small'/>
-                Mehsana, Gujarat, India (GMT-4)
+                {data.heading.Work.Zorens.Location}
             </p>
             <p>
                 {data.code}
-                June 2019 to October 2020
-            </p>
-            <p>
-                {data.code}
-                Technologies: MERN Stack and Android
+                {data.heading.Work.Zorens.startYear} to {data.heading.Work.Zorens.endYear}
             </p>
         </Stack>
     )

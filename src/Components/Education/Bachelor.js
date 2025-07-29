@@ -9,29 +9,29 @@ const Bachelor = () => {
     return (
         <Stack direction="column" spacing={2} className="BachelorCard">
             <h2>
-                {data.heading.Education.BE}
+                {data.heading.Education.BE.Title}
             </h2>
             <h4>
                 {data.code}
-                Computer Engineering
+                {data.heading.Education.BE.College}
             </h4>
             <p>
                 {data.code}
-                Smt. S.R.Patel Engineering College
+                {data.heading.Education.BE.Location}
             </p>
             <p>
                 {data.code}
                 <LocationOnIcon fontSize='small'/>
-                Unjha, Gujarat, India (GMT-4)
+                {data.heading.Education.BE.Location}
             </p>
             <p>
                 {data.code}
                 <DoneIcon color="success" fontSize="small"/>
-                Completed 2019
+                Completed {data.heading.Education.BE.Year}
             </p>
             <p>
                 {data.code}
-                CGA: 8.48( out of 10)
+                CGA: {data.heading.Education.BE.CGA}
             </p>
         </Stack>
     )

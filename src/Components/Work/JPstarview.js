@@ -7,13 +7,12 @@ const JPstarview = () => {
 
   return (
     <Stack direction="column" spacing={2} className="JpstarviewCard">
-        <h2> {data.heading.Work.Jp} </h2>
-        <h3> {data.code} Freelance Software Developer </h3>
+        <h2> {data.heading.Work.Jp.Role} </h2>
+        <h3> {data.code} {data.heading.Work.Jp.Title} </h3>
         <p> 
-        {data.code} <LocationOnIcon fontSize='small' />Patan, Gujarat, India (GMT-4)
+        {data.code} <LocationOnIcon fontSize='small' />{data.heading.Work.Jp.Location}
         </p>
-        <p> {data.code} February 2021 to May 2021 </p>
-        <p> {data.code} Technologies: MERN Stack </p>
+        <p> {data.code} {data.heading.Work.Jp.startYear} to {data.heading.Work.Jp.endYear} </p>
     </Stack>
   )
 }

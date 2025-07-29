@@ -9,28 +9,24 @@ const PG = () => {
     return (
         <Stack direction="column" spacing={2} className="PGCard">
             <h2>
-                {data.heading.Education.PG}
+                {data.heading.Education.PG.Title}
             </h2>
             <h4>
                 {data.code}
-                Mobile Solutions Development
+                {data.heading.Education.PG.College}
             </h4>
             <p>
                 {data.code}
-                Conestoga College Institute of Technology
-            </p>
-            <p>
-                {data.code}
                 <LocationOnIcon fontSize='small'/>
-                Waterloo, ON, Canada (GMT-4)
+                {data.heading.Education.PG.Location}
             </p>
             <p>
             {data.code}
             <DoneIcon color="success" fontSize="small"/>
-            Completed 2022 </p>
+                Completed {data.heading.Education.PG.Year} </p>
             <p>
                 {data.code}
-                CGPA: 3.83 (out of 4)
+                CGPA: {data.heading.Education.PG.CGA}
             </p>
         </Stack>
     )

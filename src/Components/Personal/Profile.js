@@ -21,14 +21,14 @@ const Profile = () => {
             </h3>
             <p>
                 {data.code}
-                Computer Engineer and Software Developer
+                Software Engineer
             </p>
             <p>
                 {data.code}
                 <LocationOnIcon fontSize='small'/>
-                Waterloo, ON, Canada (GMT-4)
+                Toronto, ON, Canada (GMT-4)
             </p>
-            <p> {data.code} © 2023 made by me, All Rights Reserved</p>
+            <p> {data.code} © 2025 made by me, All Rights Reserved</p>
         </Stack>
     )
 }

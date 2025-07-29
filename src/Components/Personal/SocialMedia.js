@@ -28,7 +28,7 @@ const SocialMedia = () => {
 
             <a
                 className='LinkedIn'
-                href="https://www.linkedin.com/in/daksh-patel-4d"
+                href="https://www.linkedin.com/in/daksh-patel-2338d/"
                 target="_blank"
                 rel="noopener noreferrer">
                 <LinkedInIcon/>
