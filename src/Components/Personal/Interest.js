@@ -28,6 +28,8 @@ const Interest = () => {
         <MovieIcon fontSize='small'/> {data.interest.Book} </p>
         <p> {data.code}
         <MovieIcon fontSize='small'/> {data.interest.MovieAndSeries} </p>
+        <p> {data.code}
+        <MovieIcon fontSize='small'/> {data.interest.Anime} </p>
         <p>{data.code} 
         <MusicNoteIcon /> {data.interest.Music}</p>
         <p> {data.code} 

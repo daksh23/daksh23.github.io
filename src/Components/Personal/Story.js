@@ -1,23 +1,34 @@
-import React from 'react'
-import {Stack} from '@mui/material';
-import {data} from '../Constant/data'
+import React from "react";
+import { Stack } from "@mui/material";
+import { data } from "../Constant/data";
 
 const Story = () => {
+  return (
+    <Stack className="StoryCard">
+      <h2
+        style={{
+          padding: 0,
+          margin: 0
+        }}
+      >
+        {data.heading.Story}
+      </h2>
+      <p className="Story">
+        {data.code} {data.textIcon.alien}
+        Hey there! I’m **Daksh** — a curious coder 👨‍💻 from India, now creating
+        magic in Canada 🍁.
+        {data.textIcon.degree} I graduated with a Bachelor’s in Engineering from
+        Gujarat Technological University and topped it off with a Postgrad from
+        Conestoga College, where I leveled up my tech game.
+        {data.textIcon.writing} Currently geeking out on **Azure** and all
+        things **Cloud** — chasing that next big "aha!" moment in tech.
+        {data.textIcon.codeBoy} Whether it's frontend flair or backend brains, I
+        love turning ideas into clean, working code.
+        {data.textIcon.greenDot} Let’s build something awesome — one line of
+        code at a time.
+      </p>
+    </Stack>
+  );
+};
 
-    return (
-        <Stack className="StoryCard">
-            <h2
-                style={{
-                padding: 0,
-                margin: 0
-            }}>
-                {data.heading.Story}
-            </h2>
-            <p className='Story'>
-                  {data.code} {data.textIcon.alien}  My self daksh, A passionate Computer Engineer & Software Developer from India, who currently living in Canada. {data.textIcon.degree} I completed A Bachelor of Engineering from Gujarat University, India {data.textIcon.writing} I’m currently learning Azure and Cloud computing. {data.textIcon.codeBoy} I love writing code and learning anything about it
-            </p>
-        </Stack>
-    )
-}
-
-export default Story
+export default Story;
