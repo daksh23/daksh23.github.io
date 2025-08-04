@@ -9,7 +9,6 @@ import SpringBootSSO from './Projects/SpringBootSSO';
 import Interest from './Personal/Interest';
 import Profile from './Personal/Profile';
 import Story from './Personal/Story';
-import Resume from './Personal/Resume';
 import Skills from './Personal/Skills';
 import SocialMedia from './Personal/SocialMedia';
 import Certification from './Personal/Certification';
@@ -89,7 +88,6 @@ const ComponentIndex = () => {
                 <PG />
                 <Bachelor />
                 <Skills />
-                <Resume />
                 <JPstarview />
                 <Zorens />
                 {/* Extra Stuffs */}
